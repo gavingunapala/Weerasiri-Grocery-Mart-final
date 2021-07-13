@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+  color: white;
+  min-height: 100vh;
+  background: linear-gradient(#88332e, #fabb84);
+  animation: landing 1s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  padding: 4rem 2rem 0 2rem;
+}
+
+form {
+  min-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 5rem 5rem 5rem;
+  margin: 0 2rem;
+}
+
+form input {
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+  padding: 0.5rem 1rem;
+  width: 35rem;
+  border-radius: 5px;
+}
+
+form input:focus {
+  outline: #6a82fb solid 2px;
+}
+
+label {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 0.6rem 3rem;
+  background: #f15f41;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  margin: 5rem 2rem 2rem 0;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  word-wrap: none;
+}
+
+button:hover {
+  background: #b84933;
+}
+
+main img {
+  position: absolute;
+  z-index: -1;
+}
+
+/* Custom styles */
+main #cup-cake {
+  top: 15%;
+  left: 0;
+}
+
+main #doughnut {
+  bottom: -20%;
+  right: 0;
+}
+
+/* Media queries */
+@media screen and (max-width: 900px) {
+  main img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  form input {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main img {
+    display: none;
+  }
+}

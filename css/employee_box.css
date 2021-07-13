@@ -1,0 +1,31 @@
+.products{
+  border:1px solid #333;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.form{
+  width: 100%;
+  max-width: 330px;
+  padding:15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#emp-search{
+  width: 100rem;
+  display: block;
+}

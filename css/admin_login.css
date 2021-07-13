@@ -1,0 +1,130 @@
+main {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #2e3764;
+}
+
+p {
+  margin-top: 2rem;
+  color: white;
+}
+
+form {
+  padding: 1rem 5rem 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-size: 1.2rem;
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+form input {
+  padding: 0.5em;
+  width: 20rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  font-family: "poppins", sans-serif;
+  border-radius: 5px;
+}
+
+form input:focus {
+  outline: #6a82fb solid 2px;
+}
+
+form button {
+  width: 100%;
+  padding: 0.4rem 2rem;
+  font-family: "poppins", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  background: #5c258d;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  color: #42275a;
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 13rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background: #542280;
+}
+
+/* Custom classes styles */
+.select {
+  margin: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.select::after {
+  content: "\25BC";
+  position: absolute;
+  background: #5c258d;
+  top: 0;
+  right: 0;
+  padding: 0.56rem 0.6rem;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.select:hover::after {
+  content: "\25BC";
+  background: white;
+  color: #5c258d;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #5c258d, #4389a2);
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.header-container {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  color: #424242;
+}
